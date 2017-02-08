@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         LineChartView lineChartView = (LineChartView) findViewById(R.id.lineChartView);
-
+        //自己搞点数据
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         hashMap.put(0, 0);
         hashMap.put(10, 20);
